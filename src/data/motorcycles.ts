@@ -66,8 +66,8 @@ export const motorcycles: Motorcycle[] = [
     country_origin: "Italy",
     launch_year: 2024,
     images: [
-      "https://images.unsplash.com/photo-1558618666-fcd25c85cd64?w=800",
-      "https://images.unsplash.com/photo-1568772585407-9361f9bf3a87?w=800"
+      "https://images.pexels.com/photos/2611686/pexels-photo-2611686.jpeg?auto=compress&cs=tinysrgb&w=800",
+      "https://images.pexels.com/photos/2519374/pexels-photo-2519374.jpeg?auto=compress&cs=tinysrgb&w=800"
     ],
     colors: [
       { name: "Ducati Red", hex: "#CC0000" },
@@ -99,7 +99,7 @@ export const motorcycles: Motorcycle[] = [
     country_origin: "Germany",
     launch_year: 2024,
     images: [
-      "https://images.unsplash.com/photo-1609630875171-b1321377ee65?w=800"
+      "https://images.pexels.com/photos/1715193/pexels-photo-1715193.jpeg?auto=compress&cs=tinysrgb&w=800"
     ],
     colors: [
       { name: "Racing Red", hex: "#DC143C" },
@@ -131,7 +131,7 @@ export const motorcycles: Motorcycle[] = [
     country_origin: "Japan",
     launch_year: 2024,
     images: [
-      "https://images.unsplash.com/photo-1547549082-6bc09f2049ae?w=800"
+      "https://images.pexels.com/photos/2549942/pexels-photo-2549942.jpeg?auto=compress&cs=tinysrgb&w=800"
     ],
     colors: [
       { name: "Lime Green", hex: "#32CD32" },
@@ -162,7 +162,7 @@ export const motorcycles: Motorcycle[] = [
     country_origin: "USA",
     launch_year: 2024,
     images: [
-      "https://images.unsplash.com/photo-1558618047-f4b511cc0322?w=800"
+      "https://images.pexels.com/photos/2607554/pexels-photo-2607554.jpeg?auto=compress&cs=tinysrgb&w=800"
     ],
     colors: [
       { name: "Vivid Black", hex: "#0D0D0D" },
@@ -193,7 +193,7 @@ export const motorcycles: Motorcycle[] = [
     country_origin: "Austria",
     launch_year: 2024,
     images: [
-      "https://images.unsplash.com/photo-1449426468159-d96dbf08f19f?w=800"
+      "https://images.pexels.com/photos/1119796/pexels-photo-1119796.jpeg?auto=compress&cs=tinysrgb&w=800"
     ],
     colors: [
       { name: "Orange", hex: "#FF6600" },
@@ -223,7 +223,7 @@ export const motorcycles: Motorcycle[] = [
     country_origin: "Japan",
     launch_year: 2024,
     images: [
-      "https://images.unsplash.com/photo-1568772585407-9361f9bf3a87?w=800"
+      "https://images.pexels.com/photos/1413412/pexels-photo-1413412.jpeg?auto=compress&cs=tinysrgb&w=800"
     ],
     colors: [
       { name: "Grand Prix Red", hex: "#CC0000" },
@@ -254,7 +254,7 @@ export const motorcycles: Motorcycle[] = [
     country_origin: "Japan",
     launch_year: 2024,
     images: [
-      "https://images.unsplash.com/photo-1558981806-ec527fa84c39?w=800"
+      "https://images.pexels.com/photos/2116475/pexels-photo-2116475.jpeg?auto=compress&cs=tinysrgb&w=800"
     ],
     colors: [
       { name: "Icon Blue", hex: "#0033A0" },
@@ -285,7 +285,7 @@ export const motorcycles: Motorcycle[] = [
     country_origin: "UK",
     launch_year: 2024,
     images: [
-      "https://images.unsplash.com/photo-1591637333184-19aa84b3e01f?w=800"
+      "https://images.pexels.com/photos/1413413/pexels-photo-1413413.jpeg?auto=compress&cs=tinysrgb&w=800"
     ],
     colors: [
       { name: "Crystal White", hex: "#FAFAFA" },
@@ -316,7 +316,7 @@ export const motorcycles: Motorcycle[] = [
     country_origin: "USA",
     launch_year: 2024,
     images: [
-      "https://images.unsplash.com/photo-1558981852-426c6c22a060?w=800"
+      "https://images.pexels.com/photos/3836761/pexels-photo-3836761.jpeg?auto=compress&cs=tinysrgb&w=800"
     ],
     colors: [
       { name: "Cool Silver", hex: "#A9A9A9" },
@@ -346,7 +346,7 @@ export const motorcycles: Motorcycle[] = [
     country_origin: "India",
     launch_year: 2024,
     images: [
-      "https://images.unsplash.com/photo-1558981033-0f0309284409?w=800"
+      "https://images.pexels.com/photos/2549941/pexels-photo-2549941.jpeg?auto=compress&cs=tinysrgb&w=800"
     ],
     colors: [
       { name: "British Racing Green", hex: "#004225" },
@@ -377,7 +377,7 @@ export const motorcycles: Motorcycle[] = [
     country_origin: "Japan",
     launch_year: 2024,
     images: [
-      "https://images.unsplash.com/photo-1525160354320-d8e92641c563?w=800"
+      "https://images.pexels.com/photos/1413419/pexels-photo-1413419.jpeg?auto=compress&cs=tinysrgb&w=800"
     ],
     colors: [
       { name: "Glass Sparkle Black", hex: "#1A1A1A" },
@@ -407,7 +407,7 @@ export const motorcycles: Motorcycle[] = [
     country_origin: "Italy",
     launch_year: 2024,
     images: [
-      "https://images.unsplash.com/photo-1580341289255-5b47c98a59dd?w=800"
+      "https://images.pexels.com/photos/2611690/pexels-photo-2611690.jpeg?auto=compress&cs=tinysrgb&w=800"
     ],
     colors: [
       { name: "Aprilia Black", hex: "#0D0D0D" },
