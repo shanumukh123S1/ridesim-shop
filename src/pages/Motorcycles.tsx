@@ -97,12 +97,12 @@ const MotorcyclesPage: React.FC = () => {
       {/* Category */}
       <div>
         <Label className="text-foreground mb-2 block">Category</Label>
-        <Select value={selectedCategory} onValueChange={setSelectedCategory}>
+        <Select value={selectedCategory || "all"} onValueChange={(val) => setSelectedCategory(val === "all" ? "" : val)}>
           <SelectTrigger className="bg-secondary border-border">
             <SelectValue placeholder="All Categories" />
           </SelectTrigger>
           <SelectContent>
-            <SelectItem value="">All Categories</SelectItem>
+            <SelectItem value="all">All Categories</SelectItem>
             {categories.map((cat) => (
               <SelectItem key={cat.id} value={cat.id}>{cat.name}</SelectItem>
             ))}
@@ -113,12 +113,12 @@ const MotorcyclesPage: React.FC = () => {
       {/* Brand */}
       <div>
         <Label className="text-foreground mb-2 block">Brand</Label>
-        <Select value={selectedBrand} onValueChange={setSelectedBrand}>
+        <Select value={selectedBrand || "all"} onValueChange={(val) => setSelectedBrand(val === "all" ? "" : val)}>
           <SelectTrigger className="bg-secondary border-border">
             <SelectValue placeholder="All Brands" />
           </SelectTrigger>
           <SelectContent>
-            <SelectItem value="">All Brands</SelectItem>
+            <SelectItem value="all">All Brands</SelectItem>
             {brands.map((brand) => (
               <SelectItem key={brand} value={brand}>{brand}</SelectItem>
             ))}
@@ -159,12 +159,12 @@ const MotorcyclesPage: React.FC = () => {
       {/* Fuel Type */}
       <div>
         <Label className="text-foreground mb-2 block">Fuel Type</Label>
-        <Select value={fuelType} onValueChange={setFuelType}>
+        <Select value={fuelType || "all"} onValueChange={(val) => setFuelType(val === "all" ? "" : val)}>
           <SelectTrigger className="bg-secondary border-border">
             <SelectValue placeholder="All Types" />
           </SelectTrigger>
           <SelectContent>
-            <SelectItem value="">All Types</SelectItem>
+            <SelectItem value="all">All Types</SelectItem>
             <SelectItem value="Petrol">Petrol</SelectItem>
             <SelectItem value="Electric">Electric</SelectItem>
           </SelectContent>
