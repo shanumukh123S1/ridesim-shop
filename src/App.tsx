@@ -7,12 +7,14 @@ import { HelmetProvider } from "react-helmet-async";
 import { CartProvider } from "@/context/CartContext";
 import { CompareProvider } from "@/context/CompareContext";
 import { WishlistProvider } from "@/context/WishlistContext";
+import { MotorcycleProvider } from "@/context/MotorcycleContext";
 import Index from "./pages/Index";
 import Motorcycles from "./pages/Motorcycles";
 import MotorcycleDetail from "./pages/MotorcycleDetail";
 import Categories from "./pages/Categories";
 import Cart from "./pages/Cart";
 import Compare from "./pages/Compare";
+import Admin from "./pages/Admin";
 import NotFound from "./pages/NotFound";
 
 const queryClient = new QueryClient();
@@ -20,27 +22,30 @@ const queryClient = new QueryClient();
 const App = () => (
   <HelmetProvider>
     <QueryClientProvider client={queryClient}>
-      <CartProvider>
-        <CompareProvider>
-          <WishlistProvider>
-            <TooltipProvider>
-              <Toaster />
-              <Sonner />
-              <BrowserRouter>
-                <Routes>
-                  <Route path="/" element={<Index />} />
-                  <Route path="/motorcycles" element={<Motorcycles />} />
-                  <Route path="/motorcycle/:id" element={<MotorcycleDetail />} />
-                  <Route path="/categories" element={<Categories />} />
-                  <Route path="/cart" element={<Cart />} />
-                  <Route path="/compare" element={<Compare />} />
-                  <Route path="*" element={<NotFound />} />
-                </Routes>
-              </BrowserRouter>
-            </TooltipProvider>
-          </WishlistProvider>
-        </CompareProvider>
-      </CartProvider>
+      <MotorcycleProvider>
+        <CartProvider>
+          <CompareProvider>
+            <WishlistProvider>
+              <TooltipProvider>
+                <Toaster />
+                <Sonner />
+                <BrowserRouter>
+                  <Routes>
+                    <Route path="/" element={<Index />} />
+                    <Route path="/motorcycles" element={<Motorcycles />} />
+                    <Route path="/motorcycle/:id" element={<MotorcycleDetail />} />
+                    <Route path="/categories" element={<Categories />} />
+                    <Route path="/cart" element={<Cart />} />
+                    <Route path="/compare" element={<Compare />} />
+                    <Route path="/admin" element={<Admin />} />
+                    <Route path="*" element={<NotFound />} />
+                  </Routes>
+                </BrowserRouter>
+              </TooltipProvider>
+            </WishlistProvider>
+          </CompareProvider>
+        </CartProvider>
+      </MotorcycleProvider>
     </QueryClientProvider>
   </HelmetProvider>
 );

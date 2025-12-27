@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import { Link, useNavigate } from 'react-router-dom';
 import { motion, AnimatePresence } from 'framer-motion';
-import { Search, ShoppingCart, Heart, Menu, X, GitCompare, User } from 'lucide-react';
+import { Search, ShoppingCart, Heart, Menu, X, GitCompare, User, LayoutDashboard } from 'lucide-react';
 import { useCart } from '@/context/CartContext';
 import { useCompare } from '@/context/CompareContext';
 import { useWishlist } from '@/context/WishlistContext';
@@ -31,6 +31,7 @@ const Navbar: React.FC = () => {
     { name: 'Motorcycles', path: '/motorcycles' },
     { name: 'Categories', path: '/categories' },
     { name: 'Compare', path: '/compare' },
+    { name: 'Admin', path: '/admin' },
   ];
 
   return (
